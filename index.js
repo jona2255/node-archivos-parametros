@@ -1,7 +1,7 @@
 const guardarSaludo = require("./utilidades/archivos");
 const chalk = require("chalk");
 
-const parametros = process.argv.slice(2).toString().split(",");
+const parametros = process.argv.slice(2);
 
 /* El if sirve para comprobar si le has pasado el parametro --nombre.
  Si le has pasado más de un parámetro, solo te pasa el parametro del nombre  */
